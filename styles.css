@@ -1,0 +1,350 @@
+@font-face {
+    font-family: Dancing-Script;
+    src: url(./assets/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: XO;
+    src: url(./assets/XO\,\ Pretty\ -\ Havelock\ Titling\ Regular.otf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #dadada;
+    font-family: Atilla;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    width: 100%;
+    position: relative;
+    background-color: #222;
+}
+
+#full-scr-nav {
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    position: absolute;
+    top: -100vh;
+    color: #222;
+    padding: 150px;
+    transition: all 0.6s ease;
+    z-index: 99;
+}
+
+#full-scr-nav h1 {
+    font-size: 240px;
+    color: #222;
+}
+
+#nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: absolute;
+    z-index: 99;
+}
+
+#nav h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+#nav h3 {
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+}
+
+#nav-links i {
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#page1 {
+    min-height: 85vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page1 h1 {
+    position: absolute;
+    left: 6%;
+    top: 21%;
+    font-size: 14vw;
+    letter-spacing: 1.8vw;
+}
+
+#page1 h2 {
+    position: absolute;
+    left: 24%;
+    top: 57%;
+    font-size: 3.1vw; 
+    width: 30%;
+    line-height: 2.6vw;
+}
+
+#page1 h3 {
+    position: absolute;
+    left: 65%;
+    top: 57%;
+    font-size: 1.6vw; 
+    width: 20%;
+    line-height: 1.4vw;
+}
+
+#page2 {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 20vh;
+}
+
+#page2 img {
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0) scale(0.9);
+}
+
+#page2 h1 {
+    font-size: 40px;
+    width: 55%;
+    text-align: center;
+    margin: 0 auto 0;
+    transform-origin: 100% 100%;
+    transform: rotateX(270deg);
+    opacity: 0;
+}
+
+#page2 #h11 {
+    margin-top: 20vh;
+}
+
+#page2 h1 span {
+    font-family: Dancing-Script;
+}
+
+#page3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+}
+
+#page3 #line {
+    background-color: #dadada;
+    height: 3px;
+    width: 20%;
+}
+
+#page4 {
+    height: 89vh;
+    width: 100vw;
+    position: relative;
+    padding: 40px 140px;
+}
+
+#page4 h1 {
+    font-size: 10vw;
+    line-height: 9.4vw;
+}
+
+#page5 {
+    position: relative;
+    height: 130vh;
+    width: 100vw;
+}
+
+#page5-elems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22%; 
+}
+
+#page5-elems h1 {
+    width: 70%;
+    height: 100%;
+    font-size: 70px;
+    padding: 10px 80px;
+    border: 1px solid #dadada;
+}
+
+#page5-elems h2 {
+    width: 30%;
+    height: 100%;
+    font-size: 30px;
+    padding: 40px 15px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+}
+
+#page5-content {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 100px 0;
+    background-image: url(https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d83ede4c11f8_stars.gif);
+}
+
+#page5-content h1 {
+    width: 50%;
+    font-size: 3.8vw;
+    line-height: 3vw;
+    text-align: center;
+}
+
+#page5-content h1 span {
+    font-family: Dancing-Script;
+    font-size: 4.2vw;
+}
+
+#page5-content h4 {
+    width: 30%;
+    font-size: 1.4vw;
+    margin: 40px;
+}
+
+#page5-content img {
+    margin-top: 10vw;
+}
+
+#page6 h1 {
+    font-size: 10vw;
+    line-height: 17vh;
+}
+
+#page6 h1 .one2 {
+    color: transparent;
+    -webkit-text-stroke: 1px #adadad;
+}
+
+#page6 .slide1-h1 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+#page6 .slide1-h1::-webkit-scrollbar {
+    display: none;
+}
+
+#page6 .slide2-h1 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+#page6 .slide2-h1::-webkit-scrollbar {
+    display: none;
+}
+
+#page6 .slide2-h1 h1 {
+    transform: translateX(-100%);
+}
+
+#page7 {
+    height: 100vh;
+    width: 100vw;
+    padding: 180px 50px;
+    text-align: center;
+}
+
+#page7 h3 {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 40%;
+    font-size: 3.2vw;
+}
+
+#page7 h3 span {
+    font-family: Dancing-Script;
+    font-size: 3.8vw;
+}
+
+#page7-elems {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35vh;
+    position: relative;
+    margin-top: 5vh;
+}
+
+#page7-elems #page7-ele1 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+}
+
+#page7-elems #page7-ele2 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+}
+
+#page7-elems #page7-ele1 h1 {
+    font-size: 40px;
+    z-index: 9;
+    position: relative;
+}
+
+#page7-elems #page7-ele2 h1 {
+    font-size: 40px;
+    z-index: 9;
+    position: relative;
+}
+
+#page7-elems #page7-ele1 img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity ease-in 0.2s;
+    transform: rotate(10deg);
+}
+
+#page7-elems #page7-ele2 img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity ease-in 0.2s;
+    transform: rotate(10deg);
+}
